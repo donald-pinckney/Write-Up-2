@@ -1,4 +1,5 @@
-import Foundation
+// See problem1.README
 
-// For this problem, you need to print the text "Hello, World!"
-print("my text here")
+let input1 = Int(readLine()!)!
+let input2 = Int(readLine()!)!
+
