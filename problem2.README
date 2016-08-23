@@ -1,0 +1,56 @@
+# Problem 2: Iterative Functions
+
+For a lot of things in math, it is very difficult (impossible?) to know the exactly decimal value.  For example, we know that something called the square root of 2 exists, and we know that it is greater than 1 and less than 2, but we don't immediately know its actual value.  Using while loops we can implement what are called iterative functions, which are helpful for computing decimal approximations of many numbers.
+
+For Problem 2 you will implement the Babylonian Method for computing the square root of a number.  For those familiar with Newton's Method, the Babylonian Method is exactly Newton's Method, just specific to square roots.
+
+Let's look at the steps to calculate the square root of y.
+First, you need to choose a starting number, x, which should be positive. This is your initial "guess" for the square root of y.  Then, repeat:
+
+   x = 0.5 * (x + y / x)
+
+until you are satisfied with the accuray of your answer, x. In this manner, you continue to iteratively update the value of x, and x gets closer and closer to the value of sqrt(y).
+
+
+For this assignment, you need to get to an accuracy of 4 digits after the decimal place.  There are many ways to determine when the code should stop repeating, and you simply need to find one that gets you 4 digits of accuracy. In fact (so that the testing script works right) you should actually output only 4 decimal digits of your answer. To do that use this code:
+
+print(String.localizedStringWithFormat("%.4f", x))
+
+where x is replaced with whatever your variable or value is.  In addition, you need to have:
+
+import Foundation
+
+at the top of your code.
+
+# Example Inputs and Outputs
+Your code will read in 1 double, and output its square root, with 4 digits after the decimal place. The input double is always going to be greater than or equal to 0.
+
+Example Input 1:
+1
+
+Example Output 1:
+1.0000
+
+
+Example Input 2:
+0
+
+Example Output 2:
+0.0000
+
+
+Example Input 3:
+2
+
+Example Output 3:
+1.4142
+
+
+Example Input 4:
+78.9
+
+Example Output 4:
+8.8826
+
+# Note
+If you use the sqrt() or pow() functions anywhere in the code you submit, I'll make sure you get a 0 on this problem.
