@@ -1,0 +1,49 @@
+# Testing If a Number Is Prime
+
+Factoring numbers is a popular and hugely important field in computer science.  In fact, the difficulty of factoring (large) numbers has been the main reason for the advancement of cryptography in the last 3 decades. If factoring were easier, then a lot of the Internet as we know it would not be secure, including logging into Facebook, GitHub, or making financial transactions.
+
+We might look at factoring more later, but for this problem we will take a first step towards factoring, with a related problem. The goal is to test if a number is prime. Recall that a number is prime if the only numbers which divide it evenly are itself and 1. 0 and 1 are not prime. Specifically, your code will read in a single Int, and output a Bool if the number is prime, and false if it isn't.
+
+To test if a number divides another number, you should know how to do this using modulo (remainder) operator: %.
+
+The input integer will always be greater than or equal to 0. 
+
+In addition, one of the test cases will be a significantly big number, and your program needs to run in under 5 seconds to get that test case correct. However, if you have difficulty achieving this, don't worry about it!
+
+# Example Inputs and Outputs
+
+
+Example input 1:
+0
+
+Example output 1:
+false
+
+
+Example input 2:
+1
+
+Example output 2:
+false
+
+
+Example input 3:
+2
+
+Example output 3:
+true
+
+
+Example input 4:
+18
+
+Example output 4:
+false
+
+
+Example input 5:
+1000000007
+
+Example output 5:
+true
+
