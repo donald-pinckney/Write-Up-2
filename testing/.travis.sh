@@ -12,6 +12,6 @@ cd "$(dirname "$0")"/..
 
 testing/test_all.sh
 exitCode=$?
-testing/.upload_results.sh
+#testing/.upload_results.sh
 
 exit $exitCode
