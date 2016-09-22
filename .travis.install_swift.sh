@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Install Swift Dependencies
-sudo apt-get install libstdc++6
-sudo add-apt-repository ppa:ubuntu-toolchain-r/test 
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get dist-upgrade
+sudo apt-get -yq install libstdc++6
+sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test 
+sudo apt-get -yq update
+sudo apt-get -yq upgrade
+sudo apt-get -yq dist-upgrade
 
 sudo apt-get -yq install clang libicu-dev
 
