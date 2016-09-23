@@ -3,7 +3,7 @@ import Foundation
 let n = Int(readLine()!)!
 var i = 2
 var isPrime = true
-testPrime: while i < (n - 2) {
+testPrime: while i < Int(sqrt(Double(n))) {
     if n % i == 0 {
         isPrime = false
         break testPrime
