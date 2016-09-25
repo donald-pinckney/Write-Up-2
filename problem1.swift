@@ -22,3 +22,26 @@ else {
 	}
 	print(sum)
 }
+
+/*
+//Commented out this secondary code. 
+//Doesn't include while loops so I wasn't sure if it was valid for this assignment.
+//Passes all tests though :)
+
+
+let input1 = Int(readLine()!)!
+let input2 = Int(readLine()!)!
+
+var sum = 0
+
+if input2 < input1 {
+	for index in input2...input1 {
+		sum = sum + index
+	}
+} else {
+	for index in input1...input2 {
+		sum = sum + index
+	}
+}
+
+print(sum)
