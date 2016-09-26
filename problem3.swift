@@ -1,19 +1,19 @@
 // See problem3.README
+import Foundation
+
 
 let n = Int(readLine()!)! 
 var prime = true
-var count = 0
+let rootn = Int(floor(sqrt(Double(n))))
 
 if n == 0 || n == 1 {
 	prime = false
-}
-
-while prime {
-	for index in 2...(n / 2) {
+} else {
+	for index in 2...rootn {
 		if n % index == 0 {
 			prime = false
-			break 	
-		}
+			break 
+		}	
 	}
 }
 
