@@ -6,7 +6,7 @@ We might look at factoring more later, but for this problem we will take a first
 
 To test if a number divides another number, you should know how to do this using modulo (remainder) operator: %.
 
-The input integer will always be greater than or equal to 0. 
+The input integer will always be greater than or equal to 0.
 
 In addition, one of the test cases will be a significantly big number, and your program needs to run in under 5 seconds to get that test case correct. However, if you have difficulty achieving this, don't worry about it!
 
@@ -46,4 +46,3 @@ Example input 5:
 
 Example output 5:
 true
-

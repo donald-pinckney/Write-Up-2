@@ -9,7 +9,7 @@ First, you need to choose a starting number, x, which should be positive. This i
 
    x = 0.5 * (x + y / x)
 
-until you are satisfied with the accuray of your answer, x. In this manner, you continue to iteratively update the value of x, and x gets closer and closer to the value of sqrt(y).
+until you are satisfied with the accuracy of your answer, x. In this manner, you continue to iteratively update the value of x, and x gets closer and closer to the value of sqrt(y).
 
 
 For this assignment, you need to get to an accuracy of 4 digits after the decimal place.  There are many ways to determine when the code should stop repeating, and you simply need to find one that gets you 4 digits of accuracy. In fact (so that the testing script works right) you should actually output only 4 decimal digits of your answer. To do that use this code:
