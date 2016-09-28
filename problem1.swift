@@ -21,7 +21,7 @@ if input1 > input2 {
 	bnumber = input1
 }
 
-while count != bnumber{
+while count != bnumber {
 	count = count + 1
 	sum = sum + count
 }
