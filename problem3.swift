@@ -5,7 +5,7 @@ let n = Int(readLine()!)!
 var count = 2
 var prime = true
 
-if n < count {
+if n <= 1 {
 	prime = false
 }
 
